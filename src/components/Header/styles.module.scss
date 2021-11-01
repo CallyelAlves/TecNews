@@ -42,26 +42,26 @@
       &:hover {
         color: var(--white);
       }
-
-      &.active {
-        color: var(--white);
-        font-weight: bold;
-      }
-
-      &.active::after {
-        content: '';
-        height: 3px;
-        border-radius: 3px 3px 0 0;
-        background: var(--yellow);
-        width: 100%;
-        position: absolute;
-        bottom: 1px;
-        left: 0;
-      }
     }
   }
 
   button {
     margin-left: auto;
   }
+}
+
+.active {
+  color: var(--white);
+  font-weight: bold;
+}
+
+.active::after {
+  content: '';
+  height: 3px;
+  border-radius: 3px 3px 0 0;
+  background: var(--yellow);
+  width: 100%;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
 }

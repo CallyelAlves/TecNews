@@ -1,7 +1,6 @@
 import { GetStaticProps } from "next";
 import { RichText } from "prismic-dom";
 import { getPrismicClient } from "../../services/prismic";
-import { ActiveLink } from "../../components/ActiveLink";
 import Link from "next/link";
 import Head from "next/head";
 import styles from "./styles.module.scss";
