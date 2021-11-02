@@ -13,8 +13,13 @@ export function ActiveLink({
   ...rest
 }: ActiveLinkProps) {
   const { asPath } = useRouter();
+  let path = asPath.split("/");
 
-  const className = asPath === rest.href ? activeClassName : "";
+  let className = asPath === rest.href ? activeClassName : "";
+
+  if (path[2] !== undefined && rest.href === "/posts") {
+    className = activeClassName;
+  }
 
   return (
     <Link {...rest}>
