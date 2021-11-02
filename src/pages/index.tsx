@@ -23,7 +23,7 @@ export default function Home({ product }: HomeProps) {
         <section className={styles.hero}>
           <span>👏 Olá, Seja bem vindo!</span>
           <h1>
-            Noticias sobre <span>Tecnologia</span>
+            Notícias sobre <span>Tecnologia</span>
           </h1>
           <p>
             Tenha acesso a conteudos de tecnologias <br />
