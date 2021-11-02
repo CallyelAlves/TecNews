@@ -37,11 +37,11 @@ Essa aplicação tem conexões com as seguintes api's:
 ## 🔖 Layout
 
 <p align="center">
-  <img width="500" alt="layout" src="./github/layout.png">
-
-  <img width="500" alt="layout" src="./github/layout2.png">
-
-  <img width="500" alt="layout" src="./github/layout3.png">
+  <img width="800" alt="layout" src="./github/layout.png">
+  <br><br>
+  <img width="800" alt="layout" src="./github/layout2.png">
+  <br><br>
+  <img width="800" alt="layout" src="./github/layout3.png">
 </p>
 
 ## 🚀 Como executar
@@ -57,5 +57,5 @@ Lembrando que será preciso ter conta no stripe, faunadb, github e prismic para 
 ## 🎬 Executando a aplicação
 
 <p align="center">
-  <img width="500" alt="video" src="./github/video.gif">
+  <img width="800" alt="video" src="./github/video.gif">
 </p>
